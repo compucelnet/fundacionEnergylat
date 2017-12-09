@@ -1,0 +1,164 @@
+
+.corrido{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 50px;
+    text-align: right;
+    
+}
+
+.tittle{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#098cff;
+}
+.subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#2d92e6;
+}
+.contenido{
+    font-family: 'Arvo', serif;
+    color: rgb(133, 131, 131);
+    text-align: justify;
+}
+.pt5{
+    padding-top: 5rem!important;
+}
+mt5{
+    margin-top: 2rem!important;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/fondo_prueba.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../img/energia_collapse.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* video */
+.videowrapper { 
+    text-align : center;
+        float: none;
+        clear: both;
+        width: 100%;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0;
+    }
+    .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+/* fin video */
+
+.tensas{
+    /* background-image: url("../img/casas.jpg"); */
+    /* Set a specific height */
+    height: center; 
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: ; contain / cover */
+
+}
+
+/* Footer */
+
+footer{
+    background-color: #48a787;
+    padding-top: 35px;
+    color: #424558;
+}
+footer a:link{
+    color: coral;
+}
+footer iframe{
+    /* border-radius: 20px; */
+    padding-bottom: 30px;
+}
+.parrafo {
+    background-color: #424558;
+     position: unset;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 35px;
+     text-align: center;
+     /* color: #CCC; */
+ }
+ 
+ .parrafo p {
+     padding: 10.5px;
+     margin: 0px;
+     line-height: 50%;
+ }
+
+
+/* Por debajo de 700px */
+@media screen and (max-width: 700px){
+    .contenido{
+    font-size:12px;
+    }
+    .contenido1{
+    font-size:14px;
+    }
+    .tittle{
+    font-size:18px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    #about{
+        height: 100%;
+        
+    }
+    
+}
+    /* Por debajo de 400px */
+    @media screen and (max-width: 450px){
+        .contenido{
+        font-size:14px;
+        }
+        .contenido1{
+        font-size:20px;
+        }
+        .tittle{
+        font-size:30px;
+        }
+        .subtitle{
+            font-size: 25px;
+        }
+        #about{
+            height: 100%;
+            
+        }
+        .carousel{
+            padding-top: 100px;
+        }
+        .corrido{
+            font-size:22px;
+            }
+       
+    }
