@@ -38,18 +38,69 @@ mt5{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax2 {
+.parallax1 {
     /* The image used */
-    background-image: url("../img/energia_collapse.jpg");
+    background-image: url("../img/front.jpg");
+    opacity: 100%;
 
     /* Set a specific height */
-    min-height: 800px; 
+    min-height: 700px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../img/agua_pozos1.jpg");
+  
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+    font-size: 70px;
+    letter-spacing: 10px;
+    
+    margin-top: -60px;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(rgb(251, 255, 1), #ffa600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.centrado1{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+    font-size: 70px;
+    letter-spacing: 10px;
+    
+    margin-top: -60px;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(rgb(1, 196, 255), #001eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* video */
@@ -162,3 +213,5 @@ footer iframe{
             }
        
     }
+
+    
