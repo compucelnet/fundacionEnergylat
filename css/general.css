@@ -41,7 +41,7 @@ mt5{
 .parallax1 {
     /* The image used */
     background-image: url("../img/front.jpg");
-    opacity: 100%;
+   
 
     /* Set a specific height */
     min-height: 700px; 
@@ -70,14 +70,12 @@ mt5{
     position: absolute;
     top: 50%;
     left: 0;
-    right: 0;
-    
+    right: 0;    
     color: #FFF;
     text-align: center;
     font-weight: 300;
     font-size: 70px;
-    letter-spacing: 10px;
-    
+    letter-spacing: 10px;    
     margin-top: -60px;
     padding-left: 10px;
     background: -webkit-linear-gradient(rgb(251, 255, 1), #ffa600);
@@ -88,14 +86,12 @@ mt5{
     position: absolute;
     top: 50%;
     left: 0;
-    right: 0;
-    
+    right: 0;    
     color: #FFF;
     text-align: center;
     font-weight: 300;
     font-size: 70px;
-    letter-spacing: 10px;
-    
+    letter-spacing: 10px;    
     margin-top: -60px;
     padding-left: 10px;
     background: -webkit-linear-gradient(rgb(1, 196, 255), #001eff);
